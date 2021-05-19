@@ -26,7 +26,7 @@ function checkAnswer(currentLevel) {
         }, 1000);
       }
     } else {
-      var audio1=new Audio("sounds/wrong.mp3");
+      var audio1=new Audio("wrong.mp3");
       audio1.play();
       $("body").addClass("game-over");
       setTimeout(function(){
@@ -53,7 +53,7 @@ playSound(randomChoosenColor);
 
 }
 function playSound(name){
-  var audio=new Audio("sounds/"+name+".mp3");
+  var audio=new Audio(name+".mp3");
   audio.play();
 }
 function animatePress(currentColor){
