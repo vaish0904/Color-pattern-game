@@ -6,7 +6,7 @@ body {
 #level-title {
 font-family: 'Black Ops One', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  2%;
   color: #e0dede;
 }
 
@@ -20,8 +20,8 @@ font-family: 'Black Ops One', cursive;
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
   border: 10px solid black;
   border-radius: 20%;
 }
